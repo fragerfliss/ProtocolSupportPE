@@ -14,9 +14,15 @@ public class PEPacketIDs {
 	public static final int ENTITY_DESTROY = 14;
 	public static final int ENTITY_TELEPORT = 18;
 	public static final int PLAYER_MOVE = 19;
+	public static final int REMOVE_BLOCK = 21;
 	public static final int UPDATE_BLOCK = 22;
+	public static final int SPAWN_PAINTING = 23;
 	public static final int LEVEL_EVENT = 26;
+	public static final int ENTITY_EVENT = 28;
+	public static final int ENTITY_EFFECT = 29;
 	public static final int SET_ATTRIBUTES = 30;
+	public static final int INTERACT = 33;
+	public static final int USE_ITEM = 35;
 	public static final int PLAYER_ACTION = 36;
 	public static final int ENTITY_VELOCITY = 40;
 	public static final int SPAWN_POS = 43;
@@ -30,4 +36,5 @@ public class PEPacketIDs {
 	public static final int PLAYER_INFO = 63;
 	public static final int CHUNK_RADIUS = 70;
 	public static final int SET_TITLE = 89;
+
 }
